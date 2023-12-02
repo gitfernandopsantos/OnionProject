@@ -47,6 +47,7 @@ Estrutura modular para facilitar futuras atualizações e adição de novos recu
 Adoção de tecnologias emergentes para manter o sistema alinhado com as últimas tendências do setor.
 Este Sistema Eletrônico de Controle, Vendas e Logística representa um passo significativo em direção à transformação digital da nossa empresa. Estamos confiantes de que essa solução não apenas resolverá os desafios atuais, mas também estabelecerá as bases para a excelência operacional e a inovação contínua. Agradecemos pela confiança em nossa equipe para desenvolver esta solução e estamos ansiosos para testar e aprimorar ainda mais esse sistema em colaboração com todos os membros da equipe.
 
+![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/14e6b691-1a6d-4d5d-af92-3766154ff654)
 ![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/60744b9a-333e-476f-84d8-2953d2befa38)
 ![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/7f0fef5c-6d10-4569-a89d-9d5b27578af8)
 
