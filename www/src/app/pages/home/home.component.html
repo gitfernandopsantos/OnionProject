@@ -1,0 +1,16 @@
+<!-- Toolbar -->
+<ng-container>
+    <div class="full-width-menu">
+        <app-menubar></app-menubar>
+    </div>
+    <p-panel header="Gráficos">
+        <mat-grid-list cols="2" rowHeight="2:1.5">
+            <mat-grid-tile>
+                <p-chart type="bar" [data]="dataBarras" [options]="basicBarras"></p-chart>
+            </mat-grid-tile>
+            <!-- <mat-grid-tile class="graficoPizza">
+                <p-chart type="pie" [data]="data" [options]="options"></p-chart>
+            </mat-grid-tile> -->
+        </mat-grid-list>
+    </p-panel>
+</ng-container>
