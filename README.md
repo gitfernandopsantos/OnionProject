@@ -46,3 +46,6 @@ Inovação Contínua:
 Estrutura modular para facilitar futuras atualizações e adição de novos recursos.
 Adoção de tecnologias emergentes para manter o sistema alinhado com as últimas tendências do setor.
 Este Sistema Eletrônico de Controle, Vendas e Logística representa um passo significativo em direção à transformação digital da nossa empresa. Estamos confiantes de que essa solução não apenas resolverá os desafios atuais, mas também estabelecerá as bases para a excelência operacional e a inovação contínua. Agradecemos pela confiança em nossa equipe para desenvolver esta solução e estamos ansiosos para testar e aprimorar ainda mais esse sistema em colaboração com todos os membros da equipe.
+
+![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/50182212-d1cc-4f17-8a27-833ea36df092)
+
