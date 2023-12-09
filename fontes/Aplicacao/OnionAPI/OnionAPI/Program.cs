@@ -1,4 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using OnionAPI.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("PostgreSQL");
+builder.Services.AddDbContext<PostgreSqlContext>(options => options.UseNpgsql(connectionString));
+
+builder.Services.
+    AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Add services to the container.
 

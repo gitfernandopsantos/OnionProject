@@ -1,25 +1,23 @@
-﻿namespace OnionAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace OnionAPI.Models
 {
 
     public class Cliente
     {
-        public Cliente(string cpf, string razaoSocial, string logradouro, string bairro, string localidade, string uf, string cep)
-        {
-            this.Cpf = cpf;
-            this.RazaoSocial = razaoSocial;
-            this.Logradouro = logradouro;
-            this.Localidade = localidade;   
-            this.Bairro = bairro;
-            this.Cep = cep;
-            this.Uf = uf;
-        }
-
-        public string Cpf { get; set; }
+        [Key]
+        [Required]
+        public string Documento { get; set; }
+        [Required]
         public string RazaoSocial { get; set; }
+        [Required]
         public string Logradouro { get; set; }
+        [Required]
         public string Bairro { get; set; }
+        [Required]
         public string Localidade { get; set; }
         public string Uf { get; set; }
+        [Required]
         public string Cep { get; set; }
     }
 }

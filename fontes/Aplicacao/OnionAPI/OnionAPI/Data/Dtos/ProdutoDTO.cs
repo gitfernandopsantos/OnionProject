@@ -1,18 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
-namespace OnionAPI.Models
+namespace OnionAPI.Data.Dtos
 {
-    public class Produto
+    public class ProdutoDTO
     {
-        [Key]
-        [Required]
-        public int IdProduto { get; set; }
         [Required]
         public string TipoProduto { get; set; }
         [Required]
         public string Nome { get; set; }
         [Required]
+        [ForeignKey("Cliente")]
         public string DocumentoCliente { get; set; }
         [Required]
         public double Valor { get; set; }

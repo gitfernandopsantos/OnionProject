@@ -1,13 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
-namespace OnionAPI.Models
+namespace OnionAPI.Data.Dtos
 {
-    public class Pedido
+    public class PedidoDTO
     {
-        [Key]
-        [Required]
-        public int IdPedido { get; set; }
         [Required]
         [ForeignKey("Produto")]
         public int IdProduto { get; set; }
