@@ -20,7 +20,9 @@ namespace OnionAPI.Controllers
         }
         //private static List<Produto> produtos = new List<Produto>();
 
+
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         public IActionResult AdicionaVendas([FromBody] ProdutoDTO produtoDTO)
         {
             Produto produto = _mapper.Map<Produto>(produtoDTO);
