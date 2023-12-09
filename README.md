@@ -54,6 +54,8 @@ Este Sistema Eletrônico de Controle, Vendas e Logística representa um passo si
 ![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/9f3546a0-4f12-4035-a7a5-049a2de34adc)
 ![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/be04a176-9cb1-431b-9f35-01b9cb403099)
 ![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/2e76fa52-901a-4203-9447-33ad40beb8da)
+![image](https://github.com/gitfernandopsantos/OnionProject/assets/102494050/f056f152-d6a0-4fed-8905-b3e92b799c74)
+
 
 
 
