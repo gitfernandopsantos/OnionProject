@@ -6,9 +6,6 @@ namespace OnionAPI.Data.Dtos
     public class PedidoDTO
     {
         [Required]
-        [ForeignKey("Produto")]
-        public int IdProduto { get; set; }
-        [Required]
         public float NumeroPedido { get; set; }
         [Required]
         public DateTime DataEntrega { get; set; }

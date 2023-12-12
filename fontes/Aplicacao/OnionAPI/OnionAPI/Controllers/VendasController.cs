@@ -51,5 +51,16 @@ namespace OnionAPI.Controllers
             }
             return NotFound();
         }
+
+        [HttpGet("{documento}")]
+        public IActionResult RecuperarClientePorDocumento(string documento)
+        {
+            var cliente = _postgreSqlContext.Clientes.FirstOrDefault(cliente => cliente.Documento == documento);
+            if (cliente != null)
+            {
+                return Ok(cliente);
+            }
+            return NotFound();
+        }
     }
 }
